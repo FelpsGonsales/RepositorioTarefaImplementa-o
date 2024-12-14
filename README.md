@@ -8,7 +8,8 @@ Observer em UML:</br>
 ![image](https://github.com/user-attachments/assets/f52a1be8-b9d7-4f8c-85ff-b97d6cff811b)</br>
 Créditos da imagem: https://www.uml-diagrams.org/observer-pattern-uml-composite-diagram-example.html </br>
 
-Código explicado: </br>
+Código explicado: Como podemos ver, o código de exemplo mostra a implementação de um observer com um teste.</br>
+No caso, os usuários 1 e 2 receberão atualizações, mensagens que algo novo chegou. Também há o exemplo de adicionar e excluir usuarios das "observações"</br> 
 
 Imagine que você tem dois tipos de objetos: um Cliente e uma Loja. O cliente está muito interessado em uma marca particular de um produto (digamos que seja um novo modelo de iPhone) que logo deverá estar disponível na loja.
 
