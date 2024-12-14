@@ -11,17 +11,17 @@ Créditos da imagem: https://www.uml-diagrams.org/observer-pattern-uml-composite
 Código explicado: Como podemos ver, o código de exemplo mostra a implementação de um observer com um teste.</br>
 No caso, os usuários 1 e 2 receberão atualizações, mensagens que algo novo chegou. Também há o exemplo de adicionar e excluir usuarios das "observações"</br> 
 
-Imagine que você tem dois tipos de objetos: um Cliente e uma Loja. O cliente está muito interessado em uma marca particular de um produto (digamos que seja um novo modelo de iPhone) que logo deverá estar disponível na loja.
-
-O cliente pode visitar a loja todos os dias e checar a disponibilidade do produto. Mas enquanto o produto ainda está a caminho, a maioria desses visitas serão em vão.
-
-Visitando a loja vs. enviando spam
-
-Por outro lado, a loja poderia mandar milhares de emails (que poderiam ser considerados como spam) para todos os clientes cada vez que um novo produto se torna disponível. Isso salvaria alguns clientes de incontáveis viagens até a loja. Porém, ao mesmo tempo, irritaria outros clientes que não estão interessados em novos produtos.
-
-Parece que temos um conflito. Ou o cliente gasta tempo verificando a disponibilidade do produto ou a loja gasta recursos notificando os clientes errados.
-
 ## Criacional:
+### Flyweight (Peso mosca, Cache)
+Esse padrão de projeto é mais relacionado a problemas em RAM, geralmente em jogos. </br>
+Foi criado para resolver problemas com quantias issuficientes em RAM. </br> 
+No exemplo apresentado pelo site Refactoring Guru, uma pessoa fez um jogo mas o jogo "quebrou" por falta de RAM devido ao excesso de partículas no jogo. </br>
+Para resolver isso, o padrão Flyweight passa o objeto que está dando problemass para métodos específicos que dependem dele. </br>
+Flyweight em UML do exemplo apresentado: </br>
+![image](https://github.com/user-attachments/assets/83286482-7735-4846-a35d-fcd9ee265860) </br>
+Creditos ao Refactoring Guru: https://refactoring.guru/pt-br/design-patterns/flyweight </br>
+
+Código explicado: 
 
 ## Estrutural:
 ### Facade
@@ -39,7 +39,7 @@ O facade faz justamente isso, tornando o código mais "fácil" de ser entendíve
 Coloque os códigos de exemplo de cada padrão em uma linguagem de programação qualquer. 
 Demonstre para que serve o padrão escolhido, explicando qual problema ele resolve, qual a solução, diagrama UML que descreve o propósito geral do padrão escolhido e o código explicado no Readme.md do repositório com o exemplo.
 
-
 Os códigos gerados estarão em outros locais.
 
-TODOS OS CRÉDITOS DA PESQUISA AO Refactoring Guru
+TODOS OS CRÉDITOS DA PESQUISA AO Refactoring Guru </br>
+https://refactoring.guru/pt-br
