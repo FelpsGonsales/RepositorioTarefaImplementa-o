@@ -13,7 +13,7 @@ No caso, os usuários 1 e 2 receberão atualizações, mensagens que algo novo c
 
 ## Criacional:
 ### Flyweight (Peso mosca, Cache)
-Esse padrão de projeto é mais relacionado a problemas em RAM, geralmente em jogos. </br>
+Esse padrão de projeto é mais relacionado a problemas em RAM. </br>
 Foi criado para resolver problemas com quantias issuficientes em RAM. </br> 
 No exemplo apresentado pelo site Refactoring Guru, uma pessoa fez um jogo mas o jogo "quebrou" por falta de RAM devido ao excesso de partículas no jogo. </br>
 Para resolver isso, o padrão Flyweight passa o objeto que está dando problemas para métodos específicos que dependem dele. </br>
