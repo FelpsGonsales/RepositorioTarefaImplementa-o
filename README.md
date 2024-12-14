@@ -8,7 +8,7 @@ Observer em UML:</br>
 ![image](https://github.com/user-attachments/assets/f52a1be8-b9d7-4f8c-85ff-b97d6cff811b)</br>
 Créditos da imagem: https://www.uml-diagrams.org/observer-pattern-uml-composite-diagram-example.html </br>
 
-Código explicado: Como podemos ver, o código de exemplo mostra a implementação de um observer com um teste.</br>
+Código ExemploObserver explicado: Como podemos ver, o código de exemplo mostra a implementação de um observer com um teste.</br>
 No caso, os usuários 1 e 2 receberão atualizações, mensagens que algo novo chegou. Também há o exemplo de adicionar e excluir usuarios das "observações"</br> 
 
 ## Criacional:
@@ -21,7 +21,7 @@ Flyweight em UML do exemplo apresentado: </br>
 ![image](https://github.com/user-attachments/assets/83286482-7735-4846-a35d-fcd9ee265860) </br>
 Creditos ao Refactoring Guru: https://refactoring.guru/pt-br/design-patterns/flyweight </br>
 
-Código explicado: </br>
+Código ExemploFlyWeight explicado: </br>
 A interface Forma define o método desenhar, usado para renderizar a forma.</br>
 A classe Circulo implementa Forma. Ela armazena o estado intrínseco (fixo) e utiliza parâmetros externos para o estado extrínseco (variável), como posição e cor. </br>
 A FormaFactory gerencia a criação de objetos Forma. Ela reutiliza objetos já criados para o mesmo tipo, garantindo economia de memória.</br>
@@ -36,7 +36,7 @@ Facade em UML:</br>
 ![image](https://github.com/user-attachments/assets/57b5a37c-bd35-4a71-8544-462910ed45b8)</br>
 Creditos da imagem: https://www.ateomomento.com.br/facade-padrao-de-projeto/<br>
 
-Código explicado: Como podemos ver, há muitos "métodos" e 3 "classes" que facilmente podem ser substituidas por apenas 1 classe.</br>
+Código ExemploFacade explicado: Como podemos ver, há muitos "métodos" e 3 "classes" que facilmente podem ser substituidas por apenas 1 classe.</br>
 O facade faz justamente isso, tornando o código mais "fácil" de ser entendível e além disso, mais prático de ser mantido.</br>
 
 
