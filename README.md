@@ -16,12 +16,16 @@ No caso, os usuários 1 e 2 receberão atualizações, mensagens que algo novo c
 Esse padrão de projeto é mais relacionado a problemas em RAM, geralmente em jogos. </br>
 Foi criado para resolver problemas com quantias issuficientes em RAM. </br> 
 No exemplo apresentado pelo site Refactoring Guru, uma pessoa fez um jogo mas o jogo "quebrou" por falta de RAM devido ao excesso de partículas no jogo. </br>
-Para resolver isso, o padrão Flyweight passa o objeto que está dando problemass para métodos específicos que dependem dele. </br>
+Para resolver isso, o padrão Flyweight passa o objeto que está dando problemas para métodos específicos que dependem dele. </br>
 Flyweight em UML do exemplo apresentado: </br>
 ![image](https://github.com/user-attachments/assets/83286482-7735-4846-a35d-fcd9ee265860) </br>
 Creditos ao Refactoring Guru: https://refactoring.guru/pt-br/design-patterns/flyweight </br>
 
-Código explicado: 
+Código explicado: </br>
+A interface Forma define o método desenhar, usado para renderizar a forma.</br>
+A classe Circulo implementa Forma. Ela armazena o estado intrínseco (fixo) e utiliza parâmetros externos para o estado extrínseco (variável), como posição e cor. </br>
+A FormaFactory gerencia a criação de objetos Forma. Ela reutiliza objetos já criados para o mesmo tipo, garantindo economia de memória.</br>
+No teste, múltiplas formas Círculo são criadas com diferentes estados extrínsecos, mas internamente reutilizam a mesma instância para o tipo "Círculo". </br>
 
 ## Estrutural:
 ### Facade
@@ -32,7 +36,7 @@ Facade em UML:</br>
 ![image](https://github.com/user-attachments/assets/57b5a37c-bd35-4a71-8544-462910ed45b8)</br>
 Creditos da imagem: https://www.ateomomento.com.br/facade-padrao-de-projeto/<br>
 
-Código explicado: Como podemos ver, há muitos "métodos" e 3 "classess" que facilmente podem ser substituidas por apenas 1 classe.</br>
+Código explicado: Como podemos ver, há muitos "métodos" e 3 "classes" que facilmente podem ser substituidas por apenas 1 classe.</br>
 O facade faz justamente isso, tornando o código mais "fácil" de ser entendível e além disso, mais prático de ser mantido.</br>
 
 
