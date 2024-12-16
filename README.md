@@ -40,9 +40,6 @@ Código ExemploFacade explicado: Como podemos ver, há muitos "métodos" e 3 "cl
 O facade faz justamente isso, tornando o código mais "fácil" de ser entendível e além disso, mais prático de ser mantido.</br>
 
 
-Coloque os códigos de exemplo de cada padrão em uma linguagem de programação qualquer. 
-Demonstre para que serve o padrão escolhido, explicando qual problema ele resolve, qual a solução, diagrama UML que descreve o propósito geral do padrão escolhido e o código explicado no Readme.md do repositório com o exemplo.
-
 Os códigos gerados estarão em outros locais.
 
 TODOS OS CRÉDITOS DA PESQUISA AO Refactoring Guru </br>
